@@ -1,0 +1,119 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #F4D04E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    overflow: hidden;   
+}
+
+.card{
+    width: 384px;
+    height: 522px;
+    background-color: white;
+    border: 1px solid #111111;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0 #111111;
+}
+
+.blog-image{
+    align-self: center;
+    margin: auto auto;
+    padding-top: 24px;
+    padding-left: 24px;
+}
+
+.text-content{
+    margin: 0;
+    font-family: 'Figtree';
+    color: #111111;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.label{
+    background-color: #F4D04E;
+    font-family: 'Figtree';
+    font-size: 14px;
+    width: 82px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 24px;
+    margin-top: 24px;
+    padding: 5px;
+}
+
+.date{
+    font-size: 14px;
+    padding-left: 24px;
+    margin: 0;
+}
+
+.name-of-post{
+    font-size: 24px;
+    padding-left: 24px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.name-of-post:hover{
+    color: #F4D04E;
+}
+
+.content{
+   font-size: 16px;
+   padding-left: 24px; 
+   color: #6B6B6B;
+   margin: 0;
+   line-height: 150%;
+}
+
+.person{
+    margin: 0;
+    width: 200px;
+    display: flex;
+    font-family: 'Figtree';
+    font-size: 14px;
+    color: #111111;
+    padding-left: 20px;
+    gap: 8px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .card{
+        width: 327px;
+        height: 501px;
+    }
+
+    .blog-image{
+        width: 279px;
+        height: 200px;
+    }
+
+    .label{
+        font-size: 12px;
+    }
+
+    .date{
+        font-size: 12px;
+    }
+
+    .name-of-post{
+        font-size: 20px;
+    }
+
+    .content{
+        font-size: 14px;
+    }
+
+    .person{
+        font-size: 12px;
+    }
+  
+}
